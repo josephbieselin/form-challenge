@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My cool form</title>
+    <title>My awesome form</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <h1>Let's
+        <br/>
+        <span>Sign Up</span>
+    </h1>
+    <p>Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
+    <!-- TODO: action -->
+    <!-- assumed no additional validation needed on inputs -->
+    <form action="" method="POST"> <!-- POST for password security -->
+        <div>
+            <label for="firstName">First Name</label>
+            <br/>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div>
+            <label for="email">Email Address</label>
+            <br/>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <br/>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <input type="submit" value="Sign Up">
+        </div>
+    </form>
 </body>
 </html>
