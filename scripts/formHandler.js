@@ -5,6 +5,6 @@ function onSubmit() {
     const email = inputs["email"].value;
 
     // route to confirmation page
-    const url = "../confirmation.html?" + "firstName=" + firstName + "&email=" + email;
+    const url = location.href + "confirmation.html?firstName=" + firstName + "&email=" + email;
     location.assign(url);
 }
