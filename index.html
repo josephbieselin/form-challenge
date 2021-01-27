@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My awesome form</title>
+    <title>super awesome service</title>
 </head>
 <body>
     <h1>Let's
@@ -11,9 +11,8 @@
         <span>Sign Up</span>
     </h1>
     <p>Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
-    <!-- TODO: action -->
     <!-- assumed no additional validation needed on inputs -->
-    <form action="" method="POST"> <!-- POST for password security -->
+    <form id="signup-form" onsubmit="onSubmit(); return false;">
         <div>
             <label for="firstName">First Name</label>
             <br/>
@@ -34,4 +33,5 @@
         </div>
     </form>
 </body>
+<script type="text/javascript" src="scripts/formHandler.js"></script>
 </html>
