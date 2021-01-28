@@ -1,29 +1,23 @@
 body {
     font-family: sans-serif;
+    max-width: 400px;
 }
 
 h1 {
     font-weight: normal;
 }
 
-form {
-    max-width: 400px;
+.container {
     display: grid;
 }
 
 form label {
     margin-bottom: 6px;
+    font-weight: bold;
 }
 
 form input {
     margin-bottom: 16px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input {
     border-width: 1px;
     border-radius: 7px;
     border-color: silver;
