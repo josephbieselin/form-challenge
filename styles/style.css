@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+form {
+    display: grid;
+    max-width: 400px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: silver;
+    justify-self: stretch;
+    height: 25px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(#EC5C32, #EA4C51);
+    border-width: 0px;
+    border-radius: 7px;
+    height: 30px;
+    width: 90px;
+    justify-self: end;
+}
+
+.bolder {
+    font-weight: bolder;
+}
