@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmation</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
+
 <body>
     <h1>Welcome,
-        <br/>
-        <span id="firstName">{First Name}!</span>
+        <br />
+        <span class="bolder">
+            <span id="firstName">{First Name}</span>!
+        </span>
     </h1>
     <p>You have been registered for this awesome service. Please check your email listed below for instructions.</p>
-    <div id="email">{email}</div>
-    <!-- does not require any functionality -->
-    <button>Sign In</button>
+    <div class="container">
+        <strong>
+            <div id="email">{email}</div>
+        </strong>
+        <!-- does not require any functionality -->
+        <button>Sign In</button>
+    </div>
 </body>
 <script type="text/javascript" src="scripts/confirmationHandler.js"></script>
+
 </html>
