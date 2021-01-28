@@ -7,8 +7,16 @@ h1 {
 }
 
 form {
-    display: grid;
     max-width: 400px;
+    display: grid;
+}
+
+form label {
+    margin-bottom: 6px;
+}
+
+form input {
+    margin-bottom: 16px;
 }
 
 label {
@@ -20,7 +28,7 @@ input {
     border-radius: 7px;
     border-color: silver;
     justify-self: stretch;
-    height: 25px;
+    height: 28px;
 }
 
 button {
@@ -29,7 +37,7 @@ button {
     background: linear-gradient(#EC5C32, #EA4C51);
     border-width: 0px;
     border-radius: 7px;
-    height: 30px;
+    height: 35px;
     width: 90px;
     justify-self: end;
 }
