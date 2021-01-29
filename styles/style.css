@@ -34,6 +34,7 @@ button {
     height: 35px;
     width: 90px;
     justify-self: end;
+    margin-top: 6px;
 }
 
 .bolder {
