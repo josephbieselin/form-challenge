@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     max-width: 400px;
+    margin: 16px; /* just looks a little nicer */
 }
 
 h1 {
@@ -28,6 +29,7 @@ form input {
 button {
     color: white;
     font-weight: bold;
+    font-size: in;
     background: linear-gradient(#EC5C32, #EA4C51);
     border-width: 0px;
     border-radius: 7px;
