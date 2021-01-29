@@ -5,8 +5,12 @@ function onSubmit() {
     const email = inputs["email"].value;
 
     /* handle password here if there were backend component to challenge */
-    
+
+    // included to be able to open index.html in browser directly from filesystem and still route correctly
+    let currentUrl = location.href;
+    currentUrl = currentUrl.replace("/index.html", "/");
+
     // route to confirmation page
-    const url = location.href + "confirmation.html?firstName=" + firstName + "&email=" + email;
-    location.assign(url);
+    const routeUrl = currentUrl + "confirmation.html?firstName=" + firstName + "&email=" + email;
+    location.assign(routeUrl);
 }
